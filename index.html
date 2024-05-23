@@ -1,0 +1,101 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel with Us</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="icon" href="agence-de-voyage-evasion-loisirs-tours-sainte-anne.jpg">
+</head>
+<body>
+
+    
+    <div id="info">
+        <div id="travel">
+            <p> travel with Us</p>
+        </div>
+    <p>contact</p>
+    <p>place</p>
+   </div>
+    <div class="welcome-page">
+        <h1 id="get-started">Welcome</h1>
+        <div id="menus">
+           
+            <div class="menu">
+                <h2>country</h2>
+                <p id="description">Chose your country</p>
+            </div>
+            <div class="menu">
+                <h2>hotels</h2>
+                <p id="description">chose your hotel</p>
+            </div>
+        </div>
+        <div>
+            <p id="person-name">here are the hotels available </p>
+            </p>
+            <ul id="diet-list"></ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" 
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" 
+    crossorigin="anonymous">
+    </script>
+
+    <script src="main.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel with Us</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="icon" href="agence-de-voyage-evasion-loisirs-tours-sainte-anne.jpg">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" 
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" 
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="info">
+        <div id="travel">
+            <p>Travel with Us</p>
+        </div>
+        <p id="contact" style="margin-left: 917px">Contact</p>
+        <p id="place" style="margin-right: 90px"  >Place</p>
+    </div>
+    <div class="welcome-page">
+        <h1 id="get-started">Start Booking</h1>
+         <div id="menus" style="display: none;">
+            <div class="menu">
+                <h2>Country</h2>
+                <select id="country-dropdown">
+                    <option value="" disabled selected>Choose your country</option>
+                    
+                </select>
+             </div>
+            <!-- <div class="menu">
+                <h2>Hotels</h2>
+                <select id="hotel-dropdown" style="display: none;">
+                    <option value="" disabled selected>Choose your hotel</option>
+                </select>
+            </div> -->
+
+            <div class="card">
+                <img src="./hotel france/Hotel De Seine/365194202.jpg" alt="Avatar" style="width:100%" class="card-img">
+                <div class="container">
+                  <h4><b>John Doe</b></h4> 
+                  <p>Architect & Engineer</p> 
+                </div>
+              </div>
+        </div>
+        <div id="results" style="display: none;">
+                    <p id="person-name">Here are the hotels available:</p>
+            <ul id="diet-list"></ul>
+        </div>
+    </div>
+       <script src="main.js"></script>
+</body>
+</html>
